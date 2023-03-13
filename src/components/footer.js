@@ -63,7 +63,6 @@ export default () => {
                 info@beyondbleu.com
               </a>
             </div>
-            <br />
             <div>
               <a
                 href="https://www.instagram.com/beyondbleu_psychotherapy/"
