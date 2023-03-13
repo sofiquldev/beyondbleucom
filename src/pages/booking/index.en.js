@@ -26,7 +26,6 @@ const Index = props => {
                   <table className="w-full text-left border-t border-b mb-6">
                     <thead>
                       <tr>
-                        <th>Initial</th>
                         <th>Individual</th>
                         <th>Couple</th>
                       </tr>
