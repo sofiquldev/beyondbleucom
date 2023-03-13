@@ -32,10 +32,13 @@ const Index = props => {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>¥10,000</td>
+                      <tr>              
                         <td>¥15,000</td>
                         <td>¥20,000</td>
+                      </tr>
+                      <tr>              
+                        <td>50 minutes</td>
+                        <td>80 minutes</td>
                       </tr>
                     </tbody>
                   </table>
