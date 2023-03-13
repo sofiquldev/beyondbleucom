@@ -55,8 +55,6 @@ const Index = props => {
                     A day before: will be charged 50%
                     <br />
                     On the same day: will be charged 100%
-                    <br />
-                    Each session is 60 minutes.
                   </p>
                   <BookingForm />
                 </>
