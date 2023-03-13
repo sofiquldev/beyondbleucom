@@ -88,13 +88,6 @@ export default () => {
           </a>
           <span className="hidden md:inline">
             <a
-              href="https://www.facebook.com/psychotherapyjapan/"
-              title="Find me on Facebook"
-              className="mx-1"
-            >
-              <FontAwesomeIcon icon={["fab", "facebook-f"]} className="mr-1" />
-            </a>
-            <a
               href="https://www.instagram.com/beyondbleu_psychotherapy/"
               title="Follow me on Instagram"
               className="mx-1"
