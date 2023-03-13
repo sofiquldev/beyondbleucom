@@ -66,18 +66,6 @@ export default () => {
             <br />
             <div>
               <a
-                href="https://www.facebook.com/psychotherapyjapan/"
-                className="no-underline"
-              >
-                <FontAwesomeIcon
-                  icon={["fab", "facebook-f"]}
-                  className="mr-3"
-                />
-                Find me on Facebook
-              </a>
-            </div>
-            <div>
-              <a
                 href="https://www.instagram.com/beyondbleu_psychotherapy/"
                 className="no-underline"
               >
@@ -85,12 +73,6 @@ export default () => {
                 Follow me on Instagram
               </a>
             </div>
-            <br />
-            <img
-              src={require("../images/fukuri-kosei-club-beyond-bleu.png")}
-              className="inline-block w-40"
-              alt="Fukuri Kosei Club - Beyond Bleu"
-            />
           </div>
         </div>
         <hr />
