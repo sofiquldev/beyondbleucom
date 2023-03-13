@@ -25,18 +25,20 @@ const Index = props => {
                   <table className="w-full text-left border-t border-b mb-6">
                     <thead>
                       <tr>
-                        <th>初回</th>
                         <th>個人</th>
                         <th>カップル</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>¥10,000</td>
                         <td>¥15,000</td>
                         <td>¥20,000</td>
                       </tr>
-                    </tbody>
+                       <tr>
+                        <td>50分</td>
+                        <td>80分</td>
+                      </tr>
+                   </tbody>
                   </table>
                   <h6>ご予約・問い合わせ</h6>
                   <p>
@@ -51,9 +53,6 @@ const Index = props => {
                     前日：料金の５０％
                     <br />
                     当日または連絡がない場合：料金１００％
-                    <br />
-                    <br />
-                    各カウンセリングは60間です。
                   </p>
                   <BookingForm />
                 </>
