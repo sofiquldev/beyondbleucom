@@ -18,9 +18,11 @@ export default () => {
             />
             <h6>{t("Appointments and Inquiries")}</h6>
             <div>
-              <strong>{t("Weekday")}</strong> 9:00~18:00
+              <strong>{t("Monday to Sunday (Everyday)")}</strong> 9:00~18:00
+              <!--
               <br />
               <strong>{t("Saturday")}</strong> 11:00~17:30
+              -->          
             </div>
           </div>
           <div className="lg:w-1/4 ml-auto text-center lg:text-left p-5 pt-10">
