@@ -44,10 +44,10 @@ const Index = props => {
                   <h6>Appointments and Inquiries</h6>
                   <p>
                     Monday to Sunday (Everyday): 9:00~18:00
-                     <!--
+                     /*
                     <br />
                     Saturday: 11:00~17:30
-                    --> 
+                    */ 
                   </p>
                   <h6>Cancelation policy</h6>
                   <p className="text-sm">
