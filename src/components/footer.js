@@ -18,7 +18,7 @@ export default () => {
             />
             <h6>{t("Appointments and Inquiries")}</h6>
             <div>
-              <strong>{t("Weekday")}</strong> 10:30~19:30
+              <strong>{t("Weekday")}</strong> 9:00~18:00
               <br />
               <strong>{t("Saturday")}</strong> 11:00~17:30
             </div>
