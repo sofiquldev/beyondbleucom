@@ -74,7 +74,7 @@ export default () => {
         </div>
         <hr />
         <div className="py-6 text-center lg:text-left">
-          © {new Date().getFullYear()} @ beyondbleu.com. All rights reserved.
+          © {new Date().getFullYear()}@beyondbleu.com. All rights reserved.
         </div>
       </div>
     </footer>
