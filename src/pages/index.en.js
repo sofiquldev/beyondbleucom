@@ -26,7 +26,7 @@ const Index = props => {
   return (
     <Layout {...props}>
       <SEO
-        title="Psychotherapy for Trauma, Depression &amp; Anxiety in Tokyo"
+        title="Psychotherapy for Trauma, Depression &amp; Anxiety. English speaking psychologist in Tokyo"
         description="Psychotherapy for trauma, depression, anxiety, relationship issues &amp; general struggles of modern life."
       />
       <header className="home-header py-6 md:py-16 flex items-center">
