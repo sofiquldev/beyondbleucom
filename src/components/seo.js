@@ -90,6 +90,15 @@ const SEO = ({ description, lang, meta, title }) => {
         href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;family=Noto+Sans+JP:wght@300;400;700&amp;display=swap"
         rel="stylesheet"
       />
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7KVYDMBLJ"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-H7KVYDMBLJ');
+        `}
+      </script>
     </Helmet>
   )
 }
