@@ -81,7 +81,7 @@ const Index = props => {
                 <BookingButton />
               </div>
             </div>
-            <div className="lg:w-1/3">
+            <div className="lg:w-1/3 about-img">
               <Img
                 fluid={images.tumee.childImageSharp.fluid}
                 className="mx-auto"
