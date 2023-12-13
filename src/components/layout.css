@@ -121,13 +121,18 @@ h6 {
   border-radius: 4px;
   margin-top: 7px;
 }
-
+.line-height {
+    line-height: 3.7rem;
+}
 .bg-image {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.bg-image-home {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* Nav */
 
 .nav-menu a {
@@ -280,6 +285,13 @@ a {
     background-position: 60% center;
     background-attachment: fixed;
   }
+    .bg-image-home {
+      background-image: url("../images/home-bg.png");
+    background-attachment: fixed;
+  }
 }
-
+.about-img {
+    position: fixed;
+    right: 30px;
+}
 /* purgecss end ignore */
