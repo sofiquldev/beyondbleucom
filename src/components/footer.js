@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react";
 import Link from "./app_link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { useTranslation } from "react-i18next"
@@ -6,6 +6,30 @@ import { useTranslation } from "react-i18next"
 export default () => {
   const { t } = useTranslation()
 
+  useEffect(() => {
+    // Initialize Histats tracking script
+    window._Hasync = window._Hasync || [];
+    window._Hasync.push(['Histats.start', '1,4843947,4,3,170,30,00011111']);
+    window._Hasync.push(['Histats.fasi', '1']);
+    window._Hasync.push(['Histats.track_hits', '']);
+    window._Hasync.push(['Histats.framed_page', '']);
+
+    const hs = document.createElement('script');
+    hs.type = 'text/javascript';
+    hs.async = true;
+    hs.src = '//s10.histats.com/js15_as.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+
+    // Cleanup function to remove script if the component unmounts
+    return () => {
+      if (document.body.contains(hs)) {
+        document.body.removeChild(hs);
+      }
+    };
+  }, []);
+
+
+  
   return (
     <footer className="bg-white relative">
       <div className="container">
