@@ -11,6 +11,7 @@ export default () => {
       allowFullScreen=""
       aria-hidden="false"
       tabIndex="0"
+      title="Map of Tokyo Chuo City, Hatchobori"
     ></iframe>
   )
 }
