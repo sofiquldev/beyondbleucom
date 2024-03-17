@@ -286,7 +286,7 @@ a {
     background-attachment: fixed;
   }
     .bg-image-home {
-      background-image: url("../images/home-bg.png");
+      background-image: url("../images/home-bg.webp");
     background-attachment: fixed;
   }
 }
