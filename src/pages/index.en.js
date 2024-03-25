@@ -31,7 +31,7 @@ const Index = props => {
       />
       <main>
           
-    <section className="py-6 md:py-16 bg-image-home bg-image-home">
+    <section className="py-6 md:py-16 bg-image-home">
         <div className="container md:w-5/6 ">
           <div className="lg:flex">
             <div className="lg:w-2/3">
